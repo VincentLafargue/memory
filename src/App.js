@@ -11,7 +11,11 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <form method="" action="">
+          <p><label>E-Mail <input type="mail" name="email" required autofocus value="voila email" /></label></p>
+          {/*le commentaire doit être entre {} et les expression jsx ne sont encore rien*/}
+          <p><button type="submit" value="Connexion" /></p>
+          </form>
         </p>
       </div>
     );
